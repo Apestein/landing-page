@@ -1,0 +1,129 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    gap: 100px;   
+}
+
+.header,
+.footer {
+   background-color: #1f2937;
+   padding: 25px; 
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 100px;
+}
+
+h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.header-bottom p,
+.header-top a {
+    font-size: 18x;
+    color: #f9faf8;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.container,
+.signup {
+    display: flex;
+    gap: 50px;
+}
+
+.description {
+    max-width: fit-content;
+}
+
+.info {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+img {
+    width: auto;
+    height: 300px;
+    border-radius: 25px;
+}
+
+.qoute {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    background-color: #e5e7eb;
+    padding: 100px;
+}
+
+.qoute div {
+    text-align: end;
+    font-weight: 900;
+}
+
+.signup,
+button {
+    background-color: #3882f6;
+}
+
+.signup {
+    padding: 50px 300px;
+    display: flex;
+    justify-content: center;
+    margin: 0 300px;
+    border-radius: 25px;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    color: white;
+    flex-shrink: 0;
+}
+
+.signup #call-to-action {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.footer {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+#logo {
+    height: 200px;
+    width: auto;
+    border-radius: 50%;
+}
